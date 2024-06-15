@@ -1,0 +1,11 @@
+[Unit]
+Description=Lockscreen2MQTT
+
+[Service]
+Type=simple
+StandardOutput=journal
+ExecStart=/home/.../venv/bin/python /home/.../main.py
+EnvironmentFile=/home/.../.env
+
+[Install]
+WantedBy=default.target
