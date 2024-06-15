@@ -2,6 +2,10 @@
 
 A small toy project to publish my lockscreen status (on Ubuntu 24.04) on MQTT to use in Home-Assistant automations.
 
+I know it's probably not the right way to do it (https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.login1.html):
+
+> SetLockedHint() may be used to set the "locked hint" to locked, i.e. information whether the session is locked. This is intended to be used by the desktop environment to tell systemd-logind when the session is locked and unlocked.
+
 ## H-A Config
 
 ```yaml
